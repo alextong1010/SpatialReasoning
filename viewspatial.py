@@ -25,6 +25,12 @@ GENERATE_FN = {
 
 
 def create_prompt(question, choices, prompt_type="free-form"):
+    # Default prompting
+#     prompt = f"""Question: {question}
+# Choices:
+# {choices}"""
+    
+    # Explicit prompting
     prompt = f"""Question: {question}
 Choices:
 {choices}
